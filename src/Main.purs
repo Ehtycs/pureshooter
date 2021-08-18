@@ -22,7 +22,8 @@ import Math as Math
 import Web.HTML (window)
 import Web.HTML.Window (Window, requestAnimationFrame)
 
-import Global.Unsafe (unsafeStringify)
+import Foreign.Internal.Stringify (unsafeStringify)
+
 
 import Graphics.Canvas as Canvas
 

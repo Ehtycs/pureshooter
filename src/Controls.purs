@@ -28,7 +28,8 @@ import Web.UIEvent.MouseEvent.EventTypes (mousemove, mouseup, mousedown)
 import Web.UIEvent.KeyboardEvent.EventTypes (keyup, keydown)
 import Web.UIEvent.KeyboardEvent as KeyboardEvent
 
-import Global.Unsafe (unsafeStringify)
+import Foreign.Internal.Stringify (unsafeStringify)
+
 
 -- DOM functions
 import Web.DOM.Document (toNonElementParentNode)
