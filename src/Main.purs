@@ -24,7 +24,7 @@ import Web.HTML.Window (Window, requestAnimationFrame)
 
 import Foreign.Internal.Stringify (unsafeStringify)
 
-
+-- Canvas
 import Graphics.Canvas as Canvas
 
 import Partial.Unsafe (unsafePartial)
